@@ -1,0 +1,123 @@
+/* body{
+    display:flex;
+    flex-direction:column
+} */
+nav{
+    display:flex;
+    background-color:rgb(85, 81, 81);
+    align-items:center;
+
+}
+ul{
+    display:flex;
+}
+nav li{
+    list-style-type:none;
+    padding-right:20px
+}
+.links a{
+    color:white;
+    text-decoration:none;
+}
+.links a:hover{
+    color:aqua;
+}
+.logo a{
+    color:black;
+    font-family:futura;
+    font-weight:900;
+    text-decoration:none;
+}
+main{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+.boxes{
+    display:grid;
+    justify-content:center;
+    grid-template-columns:1fr 1fr;
+    grid-auto-rows:1fr;
+}
+.box{
+    background-color:antiquewhite;
+    margin:10px;
+    border:5px solid black;
+    padding:20px;
+    padding-left:20px;
+    padding-right:20px;
+    border-radius:5px;
+    flex:1;
+}
+.box h1{
+    text-align:center;
+}
+.box p{
+    text-align:justify;
+}
+.box:hover{
+    box-shadow:10px 10px 10px 2px grey;
+}
+.button1{
+    background-color:rgb(190, 162, 255);
+    color:white;
+    border-radius:100px;
+    transition:box-shadow 0.5s;
+    padding:20px 40px;
+    margin:20px;
+}
+
+.button1:hover{
+    background-color:rgb(148, 97, 248);
+    cursor:pointer;
+    box-shadow:2px 2px 5px 2px grey;
+}
+.button1:active{
+    background-color:navy
+}
+.br{
+    width:100%;
+}
+.contact h2{
+    text-align:center;
+}
+.contact{
+    background-color:rgb(255, 202, 161);
+    display:flex;
+    flex-direction:column;
+    width:50%;
+}
+form{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:5px;
+    align-items:center
+}
+input{
+    background-color:whitesmoke;
+    color:black;
+    width:75%;
+    border-radius:100px;
+    padding:10px;
+    border:3px solid grey
+}
+input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+form button{
+    width:50%;
+    border-radius:10px;
+    cursor:pointer;
+    background-color:rgb(132, 14, 132);
+    color:white;
+
+}
+footer{
+    background-color:rgb(85, 81, 81);
+    color:white;
+    position:sticky;
+    margin-top:100px
+}

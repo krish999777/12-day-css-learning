@@ -1,0 +1,22 @@
+h2{
+    font-family:"Times New Roman";
+    color:crimson;
+    font-size:25px;
+    text-align:center;
+
+}
+p{
+    font-family:Arial;
+    color:grey;
+    font-size:1rem;
+    text-align:center;
+}
+.about-section{
+    border:5px solid black;
+    transition:box-shadow 0.5s;
+}
+.about-section:hover{
+    background-color:antiquewhite;
+    box-shadow:10px 10px 10px 1px grey;
+
+}
