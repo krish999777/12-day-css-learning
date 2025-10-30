@@ -108,7 +108,7 @@ input:focus {
   outline: none;
 }
 form button{
-    width:50%;
+    width:25%;
     border-radius:10px;
     cursor:pointer;
     background-color:rgb(132, 14, 132);
